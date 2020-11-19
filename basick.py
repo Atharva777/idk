@@ -1,0 +1,13 @@
+words = ["pop", "lol", "cod", "lab", "cat"]
+words.pop()
+print(words)
+words.remove("pop")
+print(words)
+print(words.count("lab"))
+#words.clear()
+#print(words)
+words.reverse()
+print(words)
+print(words.index("lol"))
+print(words.index("cod"))
+print(words.count("lab"))
